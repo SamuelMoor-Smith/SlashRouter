@@ -3,7 +3,7 @@ pragma solidity ^0.8.9;
 
 import "@thirdweb-dev/contracts/base/Staking20Base.sol";
 
-contract Staking1 is Staking20Base {
+contract Slash20 is Staking20Base {
     constructor(
         address _defaultAdmin,
         uint256 _timeUnit,
